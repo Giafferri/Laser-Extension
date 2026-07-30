@@ -173,7 +173,7 @@ def _build_prompt_records():
 
     verb_templates = [
         "Claim: {claim} True or false? The claim is",
-        "Consider the following claim: {claim} Decide whether it is true or false. The claim is",
+        "Consider the following claim: {claim} Determine its truth value, choosing either true or false. The claim is",
         "Consider the following claim carefully: {claim} Decide whether the claim is true or false. The claim is",
         "Consider the following factual claim: {claim} Decide whether this claim is true or false. The claim is",
         "Read the claim below carefully. Determine whether it should be labeled true or false: {claim} The claim is",

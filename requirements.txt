@@ -1,0 +1,14 @@
+# Install the CUDA-enabled PyTorch wheel separately before this file.
+# Native Windows must use Python 3.11 for the tokenizers 0.14.1 wheel.
+setuptools<82
+transformers==4.34.1
+tokenizers==0.14.1
+datasets==2.14.7
+huggingface-hub==0.17.3
+fsspec==2023.10.0
+pyarrow==24.0.0
+numpy==2.4.6
+matplotlib==3.11.0
+pandas==3.0.3
+tqdm==4.68.3
+nltk==3.9.4

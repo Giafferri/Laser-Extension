@@ -1,0 +1,106 @@
+# macOS and editor metadata
+.DS_Store
+**/.DS_Store
+._*
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*~
+~$*
+/.git-broken-backup/
+/Laser Ext/
+/.codex/
+/.agents/
+
+# Python environments and caches
+.venv/
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+
+# Hugging Face, datasets, and plotting caches
+.hf_home/
+.hf_datasets_cache/
+.cache/
+.mplconfig/
+
+# Downloaded datasets and model weights
+/counterfact
+/data/
+/datasets/
+/models/
+*.arrow
+*.parquet
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.bin
+
+# Experiment outputs and temporary analyses
+/results*/
+/output/
+/tmp/
+/tmp_*/
+*.p
+*.pkl
+*.tmp
+*.tmp-*
+
+# Logs and runtime artifacts
+*.log
+*.pid
+*.out
+
+# LaTeX build products; keep .tex sources and reference PDFs
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# Local reference copies and internal drafts
+/LASER_Original/
+/laser-main/UPSTREAM_CORE_SHA256.json
+/FINAL_RUN_*.md
+/2312.13558v1.pdf
+/*.docx
+/NOTE_*
+/PLAN_*.md
+/SYNTHESE_*.md
+/analysis/*_AUDIT.md
+/analysis/fever_paraphrase_report.py
+/analysis/*research_note*.py
+/analysis/run_fever_paraphrase_plots.sh
+/overleaf_*/
+
+# Rebuildable archives and packaging output
+*.zip
+build/
+dist/
+*.egg-info/

@@ -1,0 +1,2 @@
+# Keep scientific source artifacts byte-stable across macOS, Linux, and Windows.
+* text=auto eol=lf

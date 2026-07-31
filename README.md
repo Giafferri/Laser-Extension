@@ -8,7 +8,7 @@ The study first performs a paper-aligned, but not exact, FEVER replication. One 
 
 Predictions use only the GPT-J tokens `" true"` and `" false"`. The primary analysis reports binary accuracy, binary NLL, seed sensitivity, prompt-level gains, and a claim-level paired bootstrap interval over the fixed prompt suite.
 
-Mean accuracy improves by **1.33 points**, but 14 of 40 prompt-level gains are negative. The result supports positive average transfer, not uniform robustness.
+Mean accuracy improves by **1.28 points**, but 14 of 40 prompt-level gains are negative. The result supports positive average transfer, not uniform robustness.
 
 ## Added files
 

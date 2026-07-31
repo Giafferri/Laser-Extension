@@ -4,7 +4,7 @@ This repository extends the public [LASER](https://github.com/pratyushasharma/la
 
 ## Experiment
 
-The study first performs a paper-aligned, but not exact, FEVER replication. One LASER intervention is then selected on the canonical validation prompt, frozen, and evaluated without retuning across 40 prompt-template variants and five SVD seeds.
+The study first performs a paper-aligned, but not exact, FEVER replication. A LASER intervention configuration is then selected on the canonical validation prompt and evaluated without retuning across 40 prompt-template variants and five SVD seeds.
 
 Predictions use only the GPT-J tokens `" true"` and `" false"`. The primary analysis reports binary accuracy, binary NLL, seed sensitivity, prompt-level gains, and a claim-level paired bootstrap interval over the fixed prompt suite.
 

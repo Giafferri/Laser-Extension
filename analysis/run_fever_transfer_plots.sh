@@ -4,7 +4,7 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-PY="${PY:-${ROOT_DIR}/.venv312/bin/python}"
+PY="${PY:-${ROOT_DIR}/.venv/bin/python}"
 ANALYSIS_DIR="${ANALYSIS_DIR:-${ROOT_DIR}/results/analysis/transfer}"
 OUTPUT_DIR="${OUTPUT_DIR:-${ANALYSIS_DIR}/plots}"
 MPLCONFIGDIR="${MPLCONFIGDIR:-${ROOT_DIR}/.mplconfig}"
